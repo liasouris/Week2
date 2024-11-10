@@ -1,7 +1,8 @@
 "use strict";
+console.log('Hello world!');
 let vehicle = {
     model: 'Boring generic vehicle',
-    color: 'red',
+    color: 'Red',
     year: 1993,
     power: 60,
 };
@@ -26,7 +27,7 @@ let plane = {
     color: "White",
     year: 2020,
     power: 170000,
-    wingSpan: 65,
+    wingspan: 65,
 };
 console.log(car);
 console.log(boat);

@@ -1,3 +1,5 @@
+console.log('Hello world!');
+
 type TVechile = {
     model: string,
     color: string,
@@ -7,7 +9,7 @@ type TVechile = {
 
 let vehicle: TVechile = {
     model: 'Boring generic vehicle',
-    color: 'red',
+    color: 'Red',
     year: 1993,
     power: 60,
 }
@@ -48,7 +50,7 @@ let boat: IBoat = {
 }
 
 interface IPlane extends IVehicle {
-    wingSpan: number,
+    wingspan: number,
 }
 
 let plane: IPlane = {
@@ -56,7 +58,7 @@ let plane: IPlane = {
     color: "White",
     year: 2020,
     power: 170000,
-    wingSpan: 65,
+    wingspan: 65,
 }
 
 console.log(car);
