@@ -1,14 +1,14 @@
 "use strict";
-console.log('Hello world!');
+console.log("Hello world!");
 let vehicle = {
-    model: 'Boring generic vehicle',
-    color: 'Red',
+    model: "Boring generic vehicle",
+    color: "Red",
     year: 1993,
     power: 60,
 };
 console.log(vehicle);
 let car = {
-    model: "Ford Focus",
+    model: "Ford focus",
     color: "Green",
     year: 2016,
     power: 150,

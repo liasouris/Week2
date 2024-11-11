@@ -1,4 +1,4 @@
-console.log('Hello world!');
+console.log("Hello world!");
 
 type TVechile = {
     model: string,
@@ -8,8 +8,8 @@ type TVechile = {
 }
 
 let vehicle: TVechile = {
-    model: 'Boring generic vehicle',
-    color: 'Red',
+    model: "Boring generic vehicle",
+    color: "Red",
     year: 1993,
     power: 60,
 }
@@ -29,7 +29,7 @@ interface ICar extends IVehicle {
 }
 
 let car: ICar = {
-    model: "Ford Focus",
+    model: "Ford focus",
     color: "Green",
     year: 2016,
     power: 150,
